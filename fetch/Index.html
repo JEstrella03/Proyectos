@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+		ul.w3-navbar {
+			/*list-style-type: none; sin la marca de la lista (el punto)*/
+			margin: 0;
+			padding: 0;
+			overflow: hidden; /* no mostrar barra de desplazamiento*/
+			border: 1px solid #e7e7e7;
+			background-color: #f3f3f3;
+		}
+
+		ul.w3-navbar li {
+			float: left;
+		}
+
+		ul.w3-navbar li a {
+			display: block; /*despliega la opcion en modo de una caja ocupando todo su espacio*/
+			color: #f81f1fde;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		ul.w3-navbar li a:hover:not(.active) { /*cuando el cursos pasa sobre las opciones no activas*/
+			background-color: #7e7777;
+		}
+
+		ul.w3-navbar li a.active { /*la opcion activa*/
+			color: white;
+			background-color: #4CAF50;
+		}
+
+        .title {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+	</style>
+</head>
+<body>
+
+	<h1 class="title">Veterinaria "Negris"</h1>
+
+	<ul class="w3-vertical w3-bar-block w3-border">
+		<li><a id="op_1" class="w3-bar-item w3-button active" href="https://localhost/fetch/RegisMaskota.html">Registrar Mascota</a></li>
+		<li><a id="op_2" class="w3-bar-item w3-button" href="https://localhost/fetch/EditMaskota.html">Modificar datos de la mascota</a></li>
+		<li><a id="op_3" class="w3-bar-item w3-button" href="https://localhost/fetch/DeleteMakota.html">Eliminar Mascota</a></li>
+		<li><a id="op_4" class="w3-bar-item w3-button" href="https://localhost/fetch/ShowMaskota.html">Mostra Mascotas</a></li>
+        <li><a id="op_5" class="w3-bar-item w3-button" href="https://localhost/fetch/ShowVet.html">Empleados Activos</a></li>
+        <li><a id="op_6" class="w3-bar-item w3-button" href="https://localhost/fetch/RegisVet.html">Empleados Registro</a></li>
+        <li><a id="op_7" class="w3-bar-item w3-button" href="https://localhost/fetch/RegisMed.html">Medicamentos</a></li>
+		<li><a id="op_8" class="w3-bar-item w3-button" href="https://localhost/fetch/ShowMed.html">Ver Almacen</a></li>
+	</ul>
+	
+</body>
+</html>
+

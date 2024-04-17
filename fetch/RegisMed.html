@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Medicamento</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="w3-container w3-half w3-margin-top">
+    <h2>Formulario de Medicamento</h2>
+    
+    <form class="w3-container w3-card-4"  action="https://localhost/fetch/php/insert-med.php "method="POST">
+        <label class="w3-text-blue"><b>Medicamento</b></label>
+        <input class="w3-input w3-border" type="text" id="nombre" placeholder="Nombre del medicamento" name="medicamento" required>
+
+        <label class="w3-text-blue"><b>Stock</b></label>
+        <input class="w3-input w3-border" type="number" id="stock" placeholder="Cantidad en stock" name="stock" required>
+
+        <label class="w3-text-blue"><b>Precio</b></label>
+        <input class="w3-input w3-border" type="text" id="precio" placeholder="Precio del medicamento" name="precio" required>
+
+        <button class="w3-btn w3-blue w3-margin-top">Guardar</button>
+    </form>
+</div>
+
+</body>
+</html>
